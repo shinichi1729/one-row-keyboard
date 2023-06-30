@@ -1,2 +1,4 @@
 test.py
 ignore/
+.DS_store
+.gitignore
