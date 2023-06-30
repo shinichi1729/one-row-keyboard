@@ -1,4 +1,4 @@
-# WHat is [Kytea](http://www.phontron.com/kytea/)?
+# What is [Kytea](http://www.phontron.com/kytea/)?
 
 KyTea (Kyoto Text Analysis Toolkit) is a tool for text analysis, particularly for languages where word segmentation is challenging, such as Japanese and Chinese. It primarily has functions for word segmentation, part-of-speech tagging, and pronunciation estimation.
 
