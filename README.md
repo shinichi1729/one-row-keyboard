@@ -1,5 +1,5 @@
 ## What's this?
-Training and accuracy verification of a KyTea-based reading prediction model for one row keyboard. The conversion from alphabets and symbols to numbers is determined by the position of the columns on the keyboard.
+Training and accuracy verification of a [Kytea](http://www.phontron.com/kytea/) - based reading prediction model for one row keyboard. The conversion from alphabets and symbols to numbers is determined by the position of the columns on the keyboard.
 
 ```txt
 {!, q, a, z} => 1,  {“, w, s, x}  => 2
@@ -17,10 +17,7 @@ this is a pen . => 5682 82 1 036 9  # uniquely determined
 5682 82 1 036 9 => ???              # inference from context
 ```
 
-## What is [Kytea](http://www.phontron.com/kytea/)?
-
-KyTea (Kyoto Text Analysis Toolkit) is a tool for text analysis, particularly for languages where word segmentation is challenging, such as Japanese and Chinese. It primarily has functions for word segmentation, part-of-speech tagging, and pronunciation estimation.
-
+## Installation
 ### Building from a package
 ```bash
 $ tar -xzf kytea-X.X.X.tar.gz
